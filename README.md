@@ -4,6 +4,8 @@
 
 ## 2017
 
+2017/09/09 » [【fqq系列】写在前面](https://github.com/tadashi-chen/blog/issues/6)
+
 2017/03/22 » [基于Node.js编写数据库接口](https://github.com/tadashi-chen/blog/issues/5)
 
 2017/02/07 » [数据库那点事](https://github.com/tadashi-chen/blog/issues/4)
