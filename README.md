@@ -1,6 +1,6 @@
 ## [技术博客](https://github.com/wscj/blog)
 
-> JavaScript | CSS | HTML | Node.js | Vue.js | Express.js | ...
+> JavaScript | CSS | HTML | Node.js | Vue.js | Express.js | Electron.js
 
 ## 2017
 
