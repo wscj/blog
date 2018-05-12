@@ -2,6 +2,10 @@
 
 > JavaScript | CSS | HTML | Node.js | Vue.js | Express.js | Electron.js
 
+## 2018
+
+2018/5/12 » [记一次无厘头的程序错误](https://github.com/wscj/blog/issues/10)
+
 ## 2017
 
 2017/10/22 » [使用Express.js实现RESTful API](https://github.com/wscj/blog/issues/9)
