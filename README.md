@@ -4,9 +4,11 @@
 
 ## 2018
 
-2018/5/31 » [吐槽一次搜索技术问题的结果](https://github.com/wscj/blog/issues/11)
+2018/06/09 » [踩坑一：微信浏览器不发起重定向的请求](https://github.com/wscj/blog/issues/12)
 
-2018/5/12 » [记一次无厘头的程序错误](https://github.com/wscj/blog/issues/10)
+2018/05/31 » [吐槽一次搜索技术问题的结果](https://github.com/wscj/blog/issues/11)
+
+2018/05/12 » [记一次无厘头的程序错误](https://github.com/wscj/blog/issues/10)
 
 ## 2017
 
