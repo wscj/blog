@@ -4,6 +4,8 @@
 
 ## 2018
 
+2018/09/22 » [移动端长度适配方案](https://github.com/wscj/blog/issues/14)
+
 2018/08/01 » [微信公众号支付开发小结](https://github.com/wscj/blog/issues/13)
 
 2018/06/09 » [踩坑一：微信浏览器不发起重定向的请求](https://github.com/wscj/blog/issues/12)
