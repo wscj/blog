@@ -4,7 +4,7 @@
 
 ## 2018
 
-2018/12/06 » [那些好用却总记不住的CSS属性](https://github.com/wscj/blog/issues/15)
+2018/12/06 » [那些总是记不住的CSS属性](https://github.com/wscj/blog/issues/15)
 
 2018/09/22 » [移动端长度适配方案](https://github.com/wscj/blog/issues/14)
 
