@@ -30,7 +30,7 @@
 
 2017/02/07 » [数据库那点事](https://github.com/wscj/blog/issues/4)
 
-2017/01/11 » [Git命令积累](https://github.com/wscj/blog/issues/3)
+2017/01/11 » [Git命令积累](/articles/2016/Git命令积累.md)
 
 ## 2016
 
