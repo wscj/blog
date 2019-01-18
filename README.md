@@ -34,6 +34,6 @@
 
 ## 2016
 
-2016/11/09 » [Javascript克隆](https://github.com/wscj/blog/issues/2)
+2016/11/09 » [Javascript克隆](/wscj/blog/blob/master/articles/2016/Javascript克隆.md)
 
-2016/10/05 » [CSS的居中方式](/wscj/vue-mobile-template/blob/master/README.md)
+2016/10/05 » [CSS的居中方式](/wscj/blog/blob/master/articles/2016/CSS的居中方式.md)
