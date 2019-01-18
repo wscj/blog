@@ -22,7 +22,7 @@
 
 2017/10/22 » [使用Express.js实现RESTful API](https://github.com/wscj/blog/issues/9)
 
-2017/09/20 » [【fqq系列】关于CSS](https://github.com/wscj/blog/issues/8)
+2017/09/20 » [【fqq系列】关于CSS](/articles/2017/【fqq系列】关于CSS.md)
 
 2017/09/10 » [【fqq系列】关于后端](/articles/2017/【fqq系列】关于后端.md)
 
