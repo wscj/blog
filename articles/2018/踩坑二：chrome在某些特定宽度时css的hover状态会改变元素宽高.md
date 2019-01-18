@@ -1,6 +1,6 @@
 ### 发现问题
 
-![Bug示意图](/wscj/static-resource/blob/master/images/bug.gif?raw=true)
+![Bug示意图](https://github.com/wscj/static-resource/blob/master/images/bug.gif?raw=true)
 
 ### 问题描述
 

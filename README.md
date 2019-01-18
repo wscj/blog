@@ -6,7 +6,7 @@
 
 2018/12/20 » [踩坑二：chrome在某些特定宽度时css的hover状态会改变元素宽高](/articles/2018/踩坑二：chrome在某些特定宽度时css的hover状态会改变元素宽高.md)
 
-2018/12/06 » [那些总是记不住的CSS属性](/articles/2018/那些总是记不住的CSS属性.md)
+2018/12/06 » [那些总是记不住的CSS属性](/articles/2018/那些记不住的CSS属性.md)
 
 2018/09/22 » [移动端长度适配方案](/articles/2018/移动端长度适配方案.md)
 
@@ -20,7 +20,7 @@
 
 ## 2017
 
-2017/10/22 » [使用Express.js实现RESTful API](/articles/2017/使用Express.js实现RESTful API.md)
+2017/10/22 » [使用Express.js实现RESTful API](/articles/2017/使用Express.js实现RESTfulAPI.md)
 
 2017/09/20 » [【fqq系列】关于CSS](/articles/2017/【fqq系列】关于CSS.md)
 
