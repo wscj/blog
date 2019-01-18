@@ -28,9 +28,9 @@
 
 2017/03/22 » [基于Node.js编写数据库接口](https://github.com/wscj/blog/issues/5)
 
-2017/02/07 » [数据库那点事](https://github.com/wscj/blog/issues/4)
+2017/02/07 » [数据库那点事](/articles/2017/数据库那点事.md)
 
-2017/01/11 » [Git命令积累](/articles/2016/Git命令积累.md)
+2017/01/11 » [Git命令积累](/articles/2017/Git命令积累.md)
 
 ## 2016
 
