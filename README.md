@@ -26,7 +26,7 @@
 
 2017/09/10 » [【fqq系列】关于后端](https://github.com/wscj/blog/issues/7)
 
-2017/03/22 » [基于Node.js编写数据库接口](https://github.com/wscj/blog/issues/5)
+2017/03/22 » [基于Node.js编写数据库接口](/articles/2017/基于Node.js编写数据库接口.md)
 
 2017/02/07 » [数据库那点事](/articles/2017/数据库那点事.md)
 
