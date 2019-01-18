@@ -19,7 +19,7 @@
  * @example
  * const Database = require("/path/to/xxx");
  */
-(function(Sqlite) {
+(function (Sqlite) {
 
   /**
    * 数据库对象
@@ -89,7 +89,7 @@
  * @method init
  * @author 陈景
  */
-Sqlite.init = function() {
+Sqlite.init = function () {
   let sqls = []
 
   sqls.push(`Create Table t1 (name NVarchar(100) Default '', sex Integer)`)
@@ -97,7 +97,7 @@ Sqlite.init = function() {
   sqls.push(`Create Table t3 (name NVarchar(100) Default '')`)
 
   //采用递归逐条运行sql命令，避免同时运行多条sql命令而导致错误
-  (function exec(sqls) {
+  (function exec (sqls) {
     if (sqls.length) {
       db.run(sqls[0], (err) => {
         if (err) {
@@ -126,7 +126,7 @@ Sqlite.init = function() {
  * * { error: 0 } 添加成功
  * * { error: 1 } 添加失败
  */
-Sqlite.addSomething = function(arg) {
+Sqlite.addSomething = function (arg) {
 
   // ... 此处省略对参数的校验
 
