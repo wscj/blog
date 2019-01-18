@@ -34,6 +34,6 @@
 
 ## 2016
 
-2016/11/09 » [Javascript克隆](/wscj/blog/blob/master/articles/2016/Javascript克隆.md)
+2016/11/09 » [Javascript克隆](/articles/2016/Javascript克隆.md)
 
-2016/10/05 » [CSS的居中方式](/wscj/blog/blob/master/articles/2016/CSS的居中方式.md)
+2016/10/05 » [CSS的居中方式](/articles/2016/CSS的居中方式.md)
