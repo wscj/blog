@@ -18,7 +18,7 @@ registry=你的域名或ip端口
 
 #### 指定临时源
 
-一般情况下，一个项目除了安装自己的私有包还有其他包，这时可以分开指定临时源来安装，如先安装私有包，在安装剩下的
+一般情况下，一个项目除了安装自己的私有包还有其他包，这时可以分开指定临时源来安装，如先安装私有包，在安装剩下的包
 
 ```bash
 $ npm i my-package1 --registry http://npm.my-domain.com
@@ -41,7 +41,7 @@ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
 ##### Sharp
 
-sharp是个处理图片很好用得node包，但是安装的时候有个文件很难下载成功，所以官方提供指定外链的方法，可以指定到任意地址。常用的方法就是先在[这里](https://github.com/lovell/sharp-libvips/releases)下载文件，然后放在一个本地服务，将外链指向这个服务就行了，在`~/.npmrc`写入
+sharp是个处理图片很好用得node包，但是安装的时候有个文件很难下载成功，所以官方提供指定外链的方法，可以指定到任意地址。常用的方法就是先在[这里](https://github.com/lovell/sharp-libvips/releases)下载文件，然后放在一个本地服务，将外链指向这个服务就行了。例如：你把文件放在本地8088端口的服务，那么就在`~/.npmrc`写入
 
 ```bash
 SHARP_DIST_BASE_URL=http://localhost:8088/
@@ -49,7 +49,7 @@ SHARP_DIST_BASE_URL=http://localhost:8088/
 
 #### 指定临时外链
 
-可以用以下命令指定临时外链安装包，不过一般写入`~/.npmrc`更简单点，不用每次都指定。也有些奇葩情况，比如我一同事的mac，写入`~/.npmrc`不生效，临时指定就生效O(∩_∩)O哈哈~
+可以用以下命令指定临时外链安装包，不过一般不会这么用，因为写入`~/.npmrc`更简单点，不用每次都指定。也有些奇葩情况，比如我一同事的mac，写入`~/.npmrc`不生效，临时指定就生效，所以你能怎么办 O(∩_∩)O哈哈~
 
 ```bash
 $ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm i 
