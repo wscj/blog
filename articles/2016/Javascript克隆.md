@@ -4,49 +4,42 @@
 * object的constructor可区分对象是json对象还是function的实例，json对象只需要遍历赋值，function的实例需要通过构造函数new一个对象，再遍历复制成员变量或函数。
 
 ```javascript
-function clone(item) {
+function clone (item) {
   if (item === null || item === undefined) {
-    return item;
+    return item
   }
 
-  //Dom node
+  // Dom node
   if (item.nodeType && item.cloneNode) {
-    return item.cloneNode(true);
+    return item.cloneNode(true)
   }
 
-  var i, obj, key;
-  var type = toString.call(item);
+  var i, obj, key
+  var type = toString.call(item)
 
-  //Date
-  if (type === "[object Date]") {
-    return new Date(item.getTime());
-  }
-  //Array
-  else if (type === "[object Array]") {
-    obj = [];
-    i = item.length;
+  if (type === '[object Date]') { // Date
+    return new Date(item.getTime())
+  } else if (type === '[object Array]') { // Array
+    obj = []
+    i = item.length
 
     while (i--) {
-      obj[i] = clone(item[i]);
+      obj[i] = clone(item[i])
     }
-  }
-  //Object
-  else if (type === "[object Object]" && item.constructor === Object) {
-    obj = {};
+  } else if (type === '[object Object]' && item.constructor === Object) { // Object
+    obj = {}
 
     for (key in item) {
-      obj[key] = clone(item[key]);
+      obj[key] = clone(item[key])
     }
-  }
-  //Instance of function
-  else if (type === "[object Object]") {
-    obj = new item.constructor();
+  } else if (type === '[object Object]') { // Instance of function
+    obj = new item.constructor()
 
     for (var attr in item) {
-      if (item.hasOwnProperty(attr)) obj[attr] = clone(item[attr]);
+      if (item.hasOwnProperty(attr)) obj[attr] = clone(item[attr])
     }
   }
 
-  return obj || item;
+  return obj || item
 }
 ```
