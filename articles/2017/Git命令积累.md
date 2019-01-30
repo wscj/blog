@@ -1,7 +1,7 @@
 记录自己使用过的git命令
 
 **仓库**
-```
+```bash
 $ git clone <repository> [folder] # 克隆远程仓库
 $ git clone -b <branch> <repository> [folder] # 克隆指定分支
 $ git remote add <remote> <respository> # 添加远程仓库
@@ -9,7 +9,7 @@ $ git remote show <remote> # 查看远程信息
 ```
 
 **分支**
-```
+```bash
 $ git branch <branch> # 新增分支
 $ git branch # 查看本地分支
 $ git branch -r # 查看远程分支
@@ -26,20 +26,20 @@ $ git checkout -b <branch> # 新建分支并切换到该分支上
 ```
 
 **版本切换**
-```
+```bash
 $ git reset --hard HEAD~n # 往前回滚n个版本
 $ git reset --hard <commitID> # 切换到指定 commit id 对应的版本
 $ git reset <commitID> #  撤销commit，修改内容仍然存在
 ```
 
 **删除新增的文件**
-```
+```bash
 $ git clean -fd  # 删除未添加进暂存区的新增文件
 $ git clean -nd .  # 在使用上面的删除命令之前，可使用该命令查看将会被删除的文件
 ```
 
 **暂存区**
-```
+```bash
 $ git add file_name # 单个文件添加进暂存区
 $ git add . # 把所有修改添加进暂存区
 $ git reset HEAD # 把暂存区的内容撤销出去
@@ -50,13 +50,13 @@ $ git checkout . # 清除暂存区中的所有修改
 ```
 
 **合并**
-```
+```bash
 $ git merge <branch> # 把另一个分支合并到当前分支
 $ git reset --hard HEAD # 撤销合并，常用于撤销pull后的合并
 ```
 
 **标签**
-```
+```bash
 $ git tag v1.0.0 # 创建轻量级标签
 $ git tag -a v1.0.0 -m 'remark' # 创建含附注的标签
 $ git fetch <remote> tag <tag> # 获取远程标签
@@ -67,7 +67,7 @@ $ git push --delete <remote> <tag> # 删除远程tag
 ```
 
 **其他**
-```
+```bash
 $ git config -l # 查看本地配置信息
 $ ssh-keygen -f ~/.ssh/somebody # 生成公钥密钥，如~/.ssh文件夹不存在则需要先创建
 $ git config --global user.name '用户名'
