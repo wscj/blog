@@ -41,7 +41,7 @@ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 
 ##### Sharp
 
-sharp是个处理图片很好用得node包，但是安装的时候有个文件很难下载成功，所以官方提供指定外链的方法，可以指定到任意地址。常用的方法就是先在[这里](https://github.com/lovell/sharp-libvips/releases)下载文件，然后放在一个本地服务，将外链指向这个服务就行了。例如：你把文件放在本地8088端口的服务，那么就在`~/.npmrc`写入
+sharp是个处理图片很好用得node包，但是安装的时候有个文件很难下载成功，所以官方提供指定外链的方法，可以指定到任意地址。常用的方法就是先在[这里](https://github.com/lovell/sharp-libvips/releases)下载文件，然后放在一个本地服务，将外链指向这个服务就行了。例如：你把文件放在本地8088端口的服务的根目录下，那么就在`~/.npmrc`写入
 
 ```bash
 SHARP_DIST_BASE_URL=http://localhost:8088/
