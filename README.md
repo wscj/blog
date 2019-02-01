@@ -1,6 +1,6 @@
 ## [技术博客](https://github.com/wscj/blog)
 
-> Vue.js | Node.js | Express.js | Koa.js | Electron.js
+> 写给未来的自己
 
 ## 2019
 
