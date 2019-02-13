@@ -29,13 +29,13 @@ $ git checkout -b <branch> # 新建分支并切换到该分支上
 ```bash
 $ git reset --hard HEAD~n # 往前回滚n个版本
 $ git reset --hard <commitID> # 切换到指定 commit id 对应的版本
-$ git reset <commitID> #  撤销commit，修改内容仍然存在
+$ git reset <commitID> # 撤销commit，修改内容仍然存在
 ```
 
 **删除新增的文件**
 ```bash
-$ git clean -fd  # 删除未添加进暂存区的新增文件
-$ git clean -nd .  # 在使用上面的删除命令之前，可使用该命令查看将会被删除的文件
+$ git clean -fd # 删除未添加进暂存区的新增文件
+$ git clean -nd . # 在使用上面的删除命令之前，可使用该命令查看将会被删除的文件
 ```
 
 **暂存区**
@@ -73,9 +73,9 @@ $ ssh-keygen -f ~/.ssh/somebody # 生成公钥密钥，如~/.ssh文件夹不存�
 $ git config --global user.name '用户名'
 $ git config --global user.email '邮箱'
 $ git config --global --unset user.email # 删除已经全局配置的邮箱，这里可以把邮箱替换成其他的属性
-$ git config --global gui.encoding utf-8 #  设置编码，解决gitk中文乱码问题
+$ git config --global gui.encoding utf-8 # 设置编码，解决gitk中文乱码问题
 $ git rm --cached <file> # 停止追踪指定文件
 $ git blame <file> # 查看指定文件，具体到每行代码最后的修改信息（包括修改人与修改时间）
-$ git commit --amend --author="xxx <xxx@xxx.xxx>" --no-edit #  修改最后一次commit的作者信息
-$ git cherry-pick <commitID> #  从其他分支提取某个commit合并过来
+$ git commit --amend --author="xxx <xxx@xxx.xxx>" --no-edit # 修改最后一次commit的作者信息
+$ git cherry-pick <commitID> # 从其他分支提取某个commit添加进本分支
 ```
