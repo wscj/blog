@@ -46,6 +46,8 @@ $ git reset HEAD # 把暂存区的内容撤销出去
 $ git reset HEAD file_name # 把单个文件撤出暂存区
 $ git stash # 隐藏暂存区的内容，回到干净的状态
 $ git stash pop # 释放隐藏，还原之前的内容
+$ git stash list # 查看隐藏队列
+$ git stash drop # 丢弃隐藏的内容
 $ git checkout . # 清除暂存区中的所有修改
 ```
 
