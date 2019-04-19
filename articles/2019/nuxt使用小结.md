@@ -33,3 +33,7 @@
 在业务代码上遇到了一个坑，是这样的：
 
 在一个DOM节点使用`v-if="showNow"`，`showNow`的初始值为`false`，在浏览器上触发事件更改`showNow`为`true`，理论上该DOM节点应该由不显示变为显示，在开发模式下（`npm run dev`）表现正常，但是经过`nuxt build`运行在`pm2`下时，就不显示了。而把`v-if`改为`v-show`则就正常了，这很有可能是`nuxt build`这一步存在问题，应该就是`Nuxt`的锅了。
+
+#### Demo
+
+结合以上总结与现有代码，写了个[项目](https://github.com/wscj/nuxt-template)，方便后面使用。 
