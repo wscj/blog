@@ -6,7 +6,7 @@
 |文字超出部分显示为三个点|`text-overflow: ellipsis; overflow: hidden; white-space: nowrap;`|
 |文字从右向左|`direction: rtl; /* 默认ltr */`|
 |更改鼠标图标|`cursor: url('arrow-right.ico'), default;`|
-|穿透(不穿透)|`pointer-events: auto(none);`|
+|不穿透(穿透)|`pointer-events: auto(none);`|
 |flex水平居中|`justify-content: center;`|
 |flex垂直居中|`align-items: center;`|
 |强制不换行|`white-space: nowrap;`|
