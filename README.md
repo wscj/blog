@@ -1,3 +1,5 @@
+# 转战新博客：[我的Gitee博客](https://gitee.com/ccjjcj/blog)
+
 ## [技术博客](https://github.com/wscj/blog)
 
 > 好记性不如烂笔头
